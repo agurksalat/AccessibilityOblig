@@ -1,0 +1,16 @@
+.flex-item-inner-wrapper{
+  background-color: #BBBBBB;
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.week{
+  height: 200px;
+  margin-top:150px;
+  background-image: url("../Pics/week.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

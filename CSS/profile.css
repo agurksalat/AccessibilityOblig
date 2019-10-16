@@ -1,0 +1,13 @@
+.flex-item-calendar-wrapper{
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  background-image: url("../Pics/calendar.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main-content.profile .flex-item{
+  width: 50%;
+}

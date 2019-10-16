@@ -1,0 +1,11 @@
+.flex-item-big-wrapper{
+    background-color: #BBBBBB;
+    height: 90%;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+.main-content .big.flex-item{
+  width: 100%;
+}

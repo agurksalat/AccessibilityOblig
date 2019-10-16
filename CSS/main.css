@@ -1,0 +1,168 @@
+body{
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header{
+    height: 100px;
+    top:0;
+    background-color: #CCCCCC;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+.flex{
+  display: flex;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+
+.logo{
+  width: 90px;
+  margin: 5px;
+  background-image: url('../Pics/logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+nav{
+    height: 100%;
+    width: 100%;
+}
+nav ul{
+  list-style-type: none;
+}
+nav li{
+  width: auto;
+  margin: 20px;
+}
+nav a{
+  color:black;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+nav a:visited{
+	color: black;
+}
+
+nav a:hover{
+	border-bottom: thick line #2e4352;
+	border-style: solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+nav a:active{
+	color: black;
+}
+
+.flagg{
+  width: 50px;
+  height: 50px;
+  margin: 25px;
+  background-image: url('../Pics/flag.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.left-nav{
+  position: fixed;
+  width: 100px;
+  height: calc(100vh - 100px);
+  background-color: #CCCCCC;
+}
+.left-nav ul{
+  list-style: none;
+  padding-left:0px;
+}
+.left-nav li{
+  width: 50px;
+  height: 50px;
+  margin: 36px auto;
+  background-color: white;
+  border-radius: 50%;
+  padding: 8px;
+}
+.left-nav li img{
+  width: 100%;
+}
+
+.main-content-margin{
+  margin-left:100px;
+}
+
+/*Breadcrumbs*/
+.breadcrumbs{
+	width: 100%;
+}
+
+ul.breadcrumb {
+  margin-top: 0px;
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.main-content .flex-item{
+  width: 30%;
+  min-width: 500px;
+}
+
+.xsmall-height{
+  height: 150px;
+}
+
+.small-height{
+  height: 400px;
+}
+
+.medium-height{
+  height: 800px;
+}
+
+.big-height{
+  height: calc(100vh - 200px);
+}
+
+.main-content{
+  margin-top: 100px;
+}
+.main-content-width{
+  width: calc(100% - 100px);
+}
+.flex-item-inner-wrapper{
+  background-color: #BBBBBB;
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+a.flex-item-inner-wrapper{
+  text-decoration: none;
+}

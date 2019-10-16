@@ -4,119 +4,66 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+  <title>Home Page</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/courses.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/home.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/main.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/school.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/settings.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/profile.css">
 </head>
 
 <body>
 
-  <title>Main Page</title>
-
-  <header>
-
-    <div class="logo">
-      <a href="HomePage.html"><img src="../Pics/logo.png"></a>
-    </div>
-
-    <nav>
-      <ul class="liste">
-        <li>
+<header class="flex">
+  <a href="index.html" class="logo flex-item"></a>
+  <nav class="flex-item">
+    <ul class="flex">
+      <li class="flex-item">
           <a href="Courses.html">Courses</a>
         </li>
-        <li>
+        <li class="flex-item">
           <a href="ProfilePage.html">Calendar</a>
         </li>
-        <li>
+        <li class="flex-item">
           <a href="School.html">School</a>
         </li>
-        <li>
+        <li class="flex-item">
           <a href="Settings.html">Settings</a>
         </li>
-      </ul>
-    </nav>
-
-    <div class="settings">
-      <p>Text size</p>
-      <img src="../Pics/flag.png">
-    </div>
-
-  </header>
-<section class="section-profile">
-  <section class="section-profile-menu">
-    <div class= "box-profile">
-      <p>
-        Profilinfo her med navn, oversikt over neste time, ny melding, rask tilgang til karakterer osv
-      </p>
-
-      <ul class="profile-liste">
-        <li>
-          <a href="ProfilePage.html"><img src="../Pics/profile.svg"
-            class="profile-student-pic profile-info-pic" title="profile" alt="profile"></a>
-            <p>
-            Navn Navnesen
-            </p>
-        </li>
-        <li>
-          <a href="Courses.html"><img src="../Pics/assignment.svg"
-            class="profile-info-pic" title="courses" alt="courses"></a>
-        </li>
-        <li>
-          <a href="ProfilePage.html"><img src="../Pics/grade.svg"
-            class="profile-info-pic" title="grades" alt="grades"></a>
-        </li>
-        <li>
-          <a href="ProfilePage.html"><img src="../Pics/cal.svg"
-            class="profile-info-pic" title="calendar" alt="calendar"></a>
-            <p>
-            Neste time:
-            Onsdag 10
-            kl 10.30
-            </p>
-        </li>
-        <li>
-          <a href="ProfilePage.html"><img src="../Pics/inbox.svg"
-            class="profile-info-pic" title="inbox" alt="inbox"></a>
-        </li>
-        <li>
-          <a href="Settings.html"><img src="../Pics/settings.svg"
-            class="profile-info-pic" title="settings" alt="settings"></a>
-        </li>
-      </ul>
-
-    </div>
-  </section>
-
-  <section class="profile-content">
-
-    <div class="breadcrumbs">
-    <ul class="breadcrumb">
-      <li><a href="HomePage.html">Home Page</a></li>
-      <li>ProfilePage</li>
     </ul>
+  </nav>
+  <a href="Settings.html" class="flagg flex-item"></a>
+</header>
+<section class="left-nav">
+  <ul>
+    <li><a href="ProfilePage.html"><img src="../Pics/profile.svg"/></a></li>
+    <li><a href="Courses.html"><img src="../Pics/assignment.svg"/></a></li>
+    <li><a href="ProfilePage.html"><img src="../Pics/grade.svg"/></a></li>
+    <li><a href="ProfilePage.html"><img src="../Pics/cal.svg"/></a></li>
+    <li><a href="ProfilePage.html"><img src="../Pics/inbox.svg"/></a></li>
+    <li><a href="Settings.html"><img src="../Pics/settings.svg"/></a></li>
+  </ul>
+</section>
+<section class="main-section main-content-width main-content-margin">
+  <section class="main-content flex wrap profile">
+    <div class="breadcrumbs">
+      <ul class="breadcrumb">
+        <li>Home</li>
+        <li>Profile</li>
+      </ul>
     </div>
-
-    <div class="box-left-profile box">
-      <div class="inner-wrapper">
-      <p>
-        Studentinfo her
-      </p>
-      <p>
-        Navn
-      </p>
-      <p>
-        email
-      </p>
+    <div class="flex-item flex medium-height">
+      <div class="flex-item-inner-wrapper">
+        <h2>Profilinfo</h2>
+      </div>
     </div>
-    </div>
-
-    <div class="box-right-profile box">
-      <div class="inner-wrapper">
-      <p>
-        Kalender?
-      </p>
-    </div>
+    <div class="flex-item flex medium-height">
+      <div class="flex-item-calendar-wrapper">
+      </div>
     </div>
   </section>
-</section>
+  </section>
 </body>
 
 </html>

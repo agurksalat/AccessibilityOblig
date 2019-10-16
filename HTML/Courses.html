@@ -4,148 +4,84 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+  <title>Courses</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/courses.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/main.css">
 </head>
 
 <body>
 
-  <title>Main Page</title>
-
-  <header>
-
-    <div class="logo">
-      <a href="HomePage.html"><img src="../Pics/logo.png"></a>
-    </div>
-
-    <nav>
-      <ul class="liste">
-        <li>
-          <a href="Courses.html" class="active">Courses</a>
+<header class="flex border">
+  <div class="logo border flex-item"></div>
+  <nav class="border flex-item">
+    <ul class="flex">
+      <li class="flex-item">
+          <a href="Courses.html">Courses</a>
         </li>
-        <li>
+        <li class="flex-item">
           <a href="ProfilePage.html">Calendar</a>
         </li>
-        <li>
+        <li class="flex-item">
           <a href="School.html">School</a>
         </li>
-        <li>
+        <li class="flex-item">
           <a href="Settings.html">Settings</a>
         </li>
-      </ul>
-    </nav>
-
-    <div class="settings">
-      <p>Text size</p>
-      <img src="../Pics/flag.png">
-    </div>
-
-  </header>
-
-  <section class="section-courses">
-
-    <section class="section-profile-menu">
-      <div class= "box-profile">
-        <p>
-          Profilinfo her med navn, oversikt over neste time, ny melding, rask tilgang til karakterer osv
-        </p>
-
-        <ul class="profile-liste">
-          <li>
-            <a href="ProfilePage.html"><img src="../Pics/profile.svg"
-              class="profile-student-pic profile-info-pic" title="profile" alt="profile"></a>
-              <p>
-              Navn Navnesen
-              </p>
-          </li>
-          <li>
-            <a href="Courses.html"><img src="../Pics/assignment.svg"
-              class="profile-info-pic" title="courses" alt="courses"></a>
-          </li>
-          <li>
-            <a href="ProfilePage.html"><img src="../Pics/grade.svg"
-              class="profile-info-pic" title="grades" alt="grades"></a>
-          </li>
-          <li>
-            <a href="ProfilePage.html"><img src="../Pics/cal.svg"
-              class="profile-info-pic" title="calendar" alt="calendar"></a>
-              <p>
-              Neste time:
-              Onsdag 10
-              kl 10.30
-              </p>
-          </li>
-          <li>
-            <a href="ProfilePage.html"><img src="../Pics/inbox.svg"
-              class="profile-info-pic" title="inbox" alt="inbox"></a>
-          </li>
-          <li>
-            <a href="Settings.html"><img src="../Pics/settings.svg"
-              class="profile-info-pic" title="settings" alt="settings"></a>
-          </li>
-        </ul>
-
-      </div>
-    </section>
-  <section class="course-content">
-
-    <div class="breadcrumbs">
-    <ul class="breadcrumb">
-      <li><a href="HomePage.html">Home</a></li>
-      <li><a href="ProfilePage.html">Profile</a></li>
-      <li>Courses</li>
     </ul>
+  </nav>
+  <a href="Settings.html" class="flagg flex-item"></a>
+</header>
+<section class="left-nav border">
+  <ul>
+    <li><a href="ProfilePage.html"><img src="../Pics/profile.svg"/></a></li>
+    <li><a href="Courses.html"><img src="../Pics/assignment.svg"/></a></li>
+    <li><a href="ProfilePage.html"><img src="../Pics/grade.svg"/></a></li>
+    <li><a href="ProfilePage.html"><img src="../Pics/cal.svg"/></a></li>
+    <li><a href="ProfilePage.html"><img src="../Pics/inbox.svg"/></a></li>
+    <li><a href="Settings.html"><img src="../Pics/settings.svg"/></a></li>
+  </ul>
+</section>
+<section class="main-section main-content-width border main-content-margin">
+  <section class="main-content flex wrap">
+    <div class="breadcrumbs">
+      <ul class="breadcrumb">
+        <li>Home</li>
+        <li>Courses</li>
+      </ul>
     </div>
-
-    <div class="box-left-course box">
-        <a href="course.html"class="inner-wrapper-course">
-        <h1>
-          Java
-        </h1>
+    <div class="flex-item small-height flex">
+      <a href="Course.html"class="flex-item-inner-wrapper">
+        <h1>Prototyping</h1>
       </a>
     </div>
-
-    <div class="box-left-course box">
-        <a href="course.html"class="inner-wrapper-course">
-        <h1>
-          Prototyping
-        </h1>
+    <div class="flex-item small-height flex">
+      <a href="Course.html"class="flex-item-inner-wrapper">
+        <h1>Java</h1>
       </a>
     </div>
-
-    <div class="box-left-course box">
-        <a href="course.html"class="inner-wrapper-course">
-        <h1>
-          Web
-        </h1>
+    <div class="flex-item small-height flex">
+      <a href="Course.html"class="flex-item-inner-wrapper">
+        <h1>Web</h1>
       </a>
     </div>
-
-    <div class="box-left-course box">
-        <a href="course.html"class="inner-wrapper-course">
-        <h1>
-          Databaser
-        </h1>
+    <div class="flex-item small-height flex">
+      <a href="Course.html"class="flex-item-inner-wrapper">
+        <h1>Operativsystemer</h1>
       </a>
     </div>
-
-    <div class="box-left-course box">
-        <a href="course.html"class="inner-wrapper-course">
-        <h1>
-          OS
-        </h1>
+    <div class="flex-item small-height flex">
+      <a href="Course.html"class="flex-item-inner-wrapper">
+        <h1>Databaser</h1>
       </a>
     </div>
-
-    <div class="box-left-course box">
-        <a href="course.html"class="inner-wrapper-course">
-        <h1>
-          Kaker
-        </h1>
+    <div class="flex-item small-height flex">
+      <a href="Course.html"class="flex-item-inner-wrapper">
+        <h1>Bakekakesøte</h1>
       </a>
     </div>
-
   </section>
-  </section>
+
+</section>
 
 </body>
 
