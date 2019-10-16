@@ -3,8 +3,8 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Home Page</title>
+  <meta charset="UTF-8" lang="en">
+  <title>Settings</title>
   <link rel="stylesheet" type="text/css" href="../CSS/courses.css">
   <link rel="stylesheet" type="text/css" href="../CSS/home.css">
   <link rel="stylesheet" type="text/css" href="../CSS/main.css">
@@ -15,14 +15,15 @@
 <body>
 
 <header class="flex">
-  <a href="index.html" class="logo flex-item"></a>
-  <nav class="flex-item">
+  <a href="index.html" class="logo flex-item">
+    <img src="../Pics/logo2.svg" alt="logo">
+  </a><nav class="flex-item">
     <ul class="flex">
       <li class="flex-item">
           <a href="Courses.html">Courses</a>
         </li>
         <li class="flex-item">
-          <a href="ProfilePage.html">Calendar</a>
+          <a href="Teacher.html">Teacher</a>
         </li>
         <li class="flex-item">
           <a href="School.html">School</a>
@@ -32,16 +33,15 @@
         </li>
     </ul>
   </nav>
-  <a href="Settings.html" class="flagg flex-item"></a>
 </header>
 <section class="left-nav">
   <ul>
-    <li><a href="ProfilePage.html"><img src="../Pics/profile.svg"/></a></li>
-    <li><a href="Courses.html"><img src="../Pics/assignment.svg"/></a></li>
-    <li><a href="ProfilePage.html"><img src="../Pics/grade.svg"/></a></li>
-    <li><a href="ProfilePage.html"><img src="../Pics/cal.svg"/></a></li>
-    <li><a href="ProfilePage.html"><img src="../Pics/inbox.svg"/></a></li>
-    <li><a href="Settings.html"><img src="../Pics/settings.svg"/></a></li>
+    <li><a href="ProfilePage.html"><img src="../Pics/profile.svg" alt="profile"></a></li>
+    <li><a href="Courses.html"><img src="../Pics/assignment.svg" alt="assignment"></a></li>
+    <li><a href="ProfilePage.html"><img src="../Pics/grade.svg" alt="grade"></a></li>
+    <li><a href="ProfilePage.html"><img src="../Pics/cal.svg" alt="calendar"></a></li>
+    <li><a href="ProfilePage.html"><img src="../Pics/inbox.svg" alt="inbox"></a></li>
+    <li><a href="Settings.html"><img src="../Pics/settings.svg" alt="settings"></a></li>
   </ul>
 </section>
 <section class="main-section main-content-width main-content-margin">
@@ -55,34 +55,34 @@
     <div class="flex-item flex xsmall-height">
       <div class="flex-item-small-wrapper">
         <p>Tekst størrelse</p>
-        <img class="settings-pic" src="../Pics/size.svg">
+        <img class="settings-pic" src="../Pics/size.svg" alt="size">
         <div class="slidecontainer">
-          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-        </div>
+          <label for="myRange">Slider</label>
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange"></div>
       </div>
     </div>
     <div class="flex-item flex xsmall-height">
       <div class="flex-item-small-wrapper">
         <p>Font</p>
-        <img class="settings-pic" src="../Pics/font.svg">
+        <img class="settings-pic" src="../Pics/font.svg" alt="font">
       </div>
     </div>
     <div class="flex-item flex xsmall-height">
       <div class="flex-item-small-wrapper">
         <p>Fargekoder (velge hva slags farger som er på siden?)</p>
-        <img class="settings-pic" src="../Pics/color.svg">
+        <img class="settings-pic" src="../Pics/color.svg" alt="color">
       </div>
     </div>
     <div class="flex-item flex xsmall-height">
       <div class="flex-item-small-wrapper">
         <p>Night vision mode</p>
-        <img class="settings-pic" src="../Pics/toggle.svg">
+        <img class="settings-pic" src="../Pics/toggle.svg" alt="toggle">
       </div>
     </div>
     <div class="flex-item flex xsmall-height">
       <div class="flex-item-small-wrapper">
         <p>Language</p>
-        <img class="settings-pic" src="../Pics/language.svg">
+        <img class="settings-pic" src="../Pics/language.svg" alt="language">
       </div>
     </div>
   </section>
